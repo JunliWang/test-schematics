@@ -1,8 +1,7 @@
-variable "ibmcloud_api_key" {
-    description = "Enter your IBM Cloud API Key, you can get your IBM Cloud API key using: https://cloud.ibm.com/iam#/apikeys"
-}
+# variable "ibmcloud_api_key" {
+#     description = "Enter your IBM Cloud API Key, you can get your IBM Cloud API key using: https://cloud.ibm.com/iam#/apikeys"
+# }
 
 provider "ibm" {
-  ibmcloud_api_key = var.ibmcloud_api_key
-  generation       = 1
+  //ibmcloud_api_key = var.ibmcloud_api_key
 }
