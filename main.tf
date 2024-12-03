@@ -1,5 +1,5 @@
 data "ibm_resource_group" "group" {
-  name = "default"
+  name = "Default"
 }
 
 #### Scenario 1: Create Event Streams service instance and topic
